@@ -90,6 +90,8 @@ unalias g
 ### End of aliases
 
 bindkey '^R' history-incremental-search-backward  # 在 tmux 中没有这句就不能使用 Ctrl+R 
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
 
 export EDITOR='nvim'
 
