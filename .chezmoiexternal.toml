@@ -1,0 +1,10 @@
+# ["~/.tmux"]
+#   type = "git-repo"
+#   url = "https://github.com/gpakosz/.tmux.git"
+#   refreshPeriod = "168h"
+
+# tmux config: https://github.com/gpakosz/.tmux.git
+["~/.tmux.conf"]
+  type = "file"
+  url = "https://raw.githubusercontent.com/gpakosz/.tmux/master/.tmux.conf"
+  refreshPeriod = "168h"

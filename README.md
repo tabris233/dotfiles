@@ -1,7 +1,6 @@
 # dotfiles
 tabris's dotfiles
 
-
 ---
 
 Use [chezmoi](https://chezmoi.io) to manager dotfiles.
@@ -33,3 +32,21 @@ More information: <https://chezmoi.io>.
 - Fetch the latest changes from a remote repository:
     chezmoi update
 ```
+
+
+---
+
+## Config List:
+
+### zsh
+
+### tmux
+
+    https://github.com/gpakosz/.tmux.git
+### alacritty
+
+### neofetch
+
+### ranger
+
+### karabiner
