@@ -1,15 +1,15 @@
-# ["~/.tmux"]
+# [".tmux"]
 #   type = "git-repo"
 #   url = "https://github.com/gpakosz/.tmux.git"
 #   refreshPeriod = "168h"
 
 # tmux config: https://github.com/gpakosz/.tmux.git
-["~/.tmux.conf"]
+[".tmux.conf"]
   type = "file"
   url = "https://raw.githubusercontent.com/gpakosz/.tmux/master/.tmux.conf"
   refreshPeriod = "168h"
 
-["~/.config/nvim"]
+[".config/nvim"]
   type = "git-repo"
   url = "https://github.com/NvChad/NvChad.git"
   refreshPeriod = "168h"
