@@ -81,12 +81,13 @@ alias nvi=nvim
 alias tree="tree -N"
 alias rm='trash'
 alias ls='lsd'
+alias cd=z
 
 unalias g
 
 ### End of aliases
 
-# bindkey '^R' history-incremental-search-backward  # 在 tmux 中没有这句就不能使用 Ctrl+R 
+# bindkey '^R' history-incremental-search-backward  # 在 tmux 中没有这句就不能使用 Ctrl+R
 # bindkey '^[[A' history-substring-search-up
 # bindkey '^[[B' history-substring-search-down
 
@@ -95,11 +96,16 @@ export EDITOR='nvim'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# fzf: 
+# fzf:
 export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# 自定义配置
-[[ -f $HOME/.custom.sh ]] || touch $HOME/.custom.sh
-source $HOME/.custom.sh
+# zoxide: insteal of cd
+eval "$(zoxide init zsh)"
 
+# 自定义配置 从 ~/.zprofile 中取
+# [[ -f $HOME/.custom.sh ]] || touch $HOME/.custom.sh
+# source $HOME/.custom.sh
+
+
+export LANG=zh_CN.UTF-8
