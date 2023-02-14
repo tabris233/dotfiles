@@ -11,5 +11,5 @@
 
 [".config/nvim"]
   type = "git-repo"
-  url = "https://github.com/NvChad/NvChad.git"
+  url = "https://github.com/tabris233/lazyvim.git"
   refreshPeriod = "168h"
