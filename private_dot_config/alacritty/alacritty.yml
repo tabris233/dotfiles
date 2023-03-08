@@ -34,7 +34,7 @@ font:
     style: Bold Italic
 
   # 字大小
-  size: 14.0
+  size: 15.0
 
   offset:
     x: 0
