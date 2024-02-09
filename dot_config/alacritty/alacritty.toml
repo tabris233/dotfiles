@@ -1,0 +1,71 @@
+live_config_reload = true
+
+# import = ["~/.config/alacritty/themes/themes/tokyo-night.toml"]
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
+size = 15.0
+glyph_offset = { x = 0, y = 0 }
+offset = { x = 0, y = 0 }
+builtin_box_drawing = true
+
+
+[window]
+decorations = "full"
+opacity = 0.9
+startup_mode = "Windowed"
+dimensions = { columns = 100, lines = 30 }
+
+[keyboard]
+bindings = [{ key = "Return", mods = "Command", action = "ToggleFullscreen" }]
+
+# [schemes.one-dark.cursor]
+# cursor = "#528bff"
+# text = "CellBackground"
+#
+# [schemes.one-dark.normal]
+# black = "#5c6370"
+# blue = "#61afef"
+# cyan = "#56b6c2"
+# green = "#98c379"
+# magenta = "#c678dd"
+# red = "#e06c75"
+# white = "#828997"
+# yellow = "#e5c07b"
+#
+# [schemes.one-dark.primary]
+# background = "#282c34"
+# foreground = "#abb2bf"
+#
+# [schemes.one-dark.selection]
+# background = "#3e4451"
+# text = "CellForeground"
+#
+# [schemes.one-light.cursor]
+# cursor = "#526eff"
+# text = "CellBackground"
+#
+# [schemes.one-light.normal]
+# black = "#696c77"
+# blue = "#4078f2"
+# cyan = "#0184bc"
+# green = "#50a14f"
+# magenta = "#a626a4"
+# red = "#e45649"
+# white = "#a0a1a7"
+# yellow = "#c18401"
+#
+# [schemes.one-light.primary]
+# background = "#fafafa"
+# foreground = "#383a42"
+#
+# [schemes.one-light.selection]
+# background = "#e5e5e6"
+# text = "CellForeground"
+#
